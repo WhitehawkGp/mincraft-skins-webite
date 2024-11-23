@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Download File</title>
+</head>
+<body>
+    <h1 id="title">Minecraft Skins</h1>
+    <h3 id="info">This is a Mincraft skin download website. Shushhhhhh, this has to be sercet okay? Good thank.</h3>
+    <h4 id="credits">The mincraft skins have not been made by me. I got the skins from multiple websites. So the credits go to there rightful owners. If you got any complaintes please go to a google form I will make soon. Thank you have a good day or night ;)</h4>
+
+    <button id="downloadBtn">Download File</button>
+
+    <script>
+        document.getElementById("downloadBtn").addEventListener("click", function() {
+            const link = document.createElement("a");
+            link.href = "2024_11_13_arch-mage-of-void-22872715.png"; // Use relative path
+            link.download = "2024_11_13_arch-mage-of-void-22872715.png";
+            link.click();
+        });
+    </script>
+</body>
+</html>

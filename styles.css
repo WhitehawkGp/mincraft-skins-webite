@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.minecraft.net/content/dam/games/minecraft/key-art/MC-Vanilla_Media-Block-Image_PC-Bundle-Keyart_800x450.jpg');
+    background-size: cover; /* Ensures the image covers the whole viewport */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets body height to the full viewport height */
+}
+
+@font-face {
+    font-family: MCF;
+    src: url('MinecraftTen-VGORe.ttf'); /* Correct property is 'src' */
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: MCF;
+    color:red
+}
+
+.container {
+    text-align: center; /* Center text inside the container */
+}
+
+#info {
+    color: aliceblue;
+}
+
+#credits {
+    color: aliceblue;
+}
+
+button {
+    size: 25px;
+}
